@@ -1,0 +1,73 @@
+{
+  "schema_version": "2.0",
+  "metadata": {
+    "scenario_id": "S08",
+    "scenario_name": "Garage Exhaust Infiltration",
+    "device_serial": "SQNT8",
+    "latitude": 32.7971,
+    "longitude": -96.8261,
+    "site_name": "1231 Dragon Street, Dallas, TX 75207",
+    "environment_type": "Indoor",
+    "scenario_note": "Garage exhaust intermittently entrained through outside-air intake.",
+    "building_name": "1231 Dragon Street Office",
+    "floor": 1
+  },
+  "events": [
+    {
+      "event_id": "evt_001",
+      "label": "Garage exhaust intermittently entrained through outside-air intake. \u2014 Event 1",
+      "start_offset_minutes": 419.2,
+      "gases": {
+        "Carbon Monoxide": {
+          "ramp_up_minutes": 49.2,
+          "peak_ppm": 25.34,
+          "peak_hold_minutes": 61.1,
+          "ramp_down_minutes": 40.5,
+          "noise_percent": 9.2
+        },
+        "Nitrogen Dioxide": {
+          "ramp_up_minutes": 10.3,
+          "peak_ppm": 14.48,
+          "peak_hold_minutes": 79.2,
+          "ramp_down_minutes": 11.1,
+          "noise_percent": 8.6
+        },
+        "Nitric Oxide": {
+          "ramp_up_minutes": 18.2,
+          "peak_ppm": 16.96,
+          "peak_hold_minutes": 71.3,
+          "ramp_down_minutes": 20.0,
+          "noise_percent": 7.4
+        }
+      }
+    },
+    {
+      "event_id": "evt_002",
+      "label": "Garage exhaust intermittently entrained through outside-air intake. \u2014 Event 2",
+      "start_offset_minutes": 981.4,
+      "gases": {
+        "Carbon Monoxide": {
+          "ramp_up_minutes": 17.1,
+          "peak_ppm": 18.9,
+          "peak_hold_minutes": 91.2,
+          "ramp_down_minutes": 20.7,
+          "noise_percent": 10.5
+        },
+        "Nitric Oxide": {
+          "ramp_up_minutes": 12.2,
+          "peak_ppm": 14.33,
+          "peak_hold_minutes": 88.0,
+          "ramp_down_minutes": 10.0,
+          "noise_percent": 8.5
+        },
+        "Nitrogen Dioxide": {
+          "ramp_up_minutes": 10.0,
+          "peak_ppm": 11.95,
+          "peak_hold_minutes": 79.0,
+          "ramp_down_minutes": 10.0,
+          "noise_percent": 6.1
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "schema_version": "2.0",
+  "metadata": {
+    "scenario_id": "S06",
+    "scenario_name": "Weekend Paint Work",
+    "device_serial": "SQNT8",
+    "latitude": 32.7971,
+    "longitude": -96.8261,
+    "site_name": "1231 Dragon Street, Dallas, TX 75207",
+    "environment_type": "Indoor",
+    "scenario_note": "Weekend paint work with active application then warm off-gassing.",
+    "building_name": "1231 Dragon Street Office",
+    "floor": 1
+  },
+  "events": [
+    {
+      "event_id": "evt_001",
+      "label": "Weekend paint work with active application then warm off-gassing.",
+      "start_offset_minutes": 1983.5,
+      "gases": {
+        "Acetone": {
+          "ramp_up_minutes": 80.3,
+          "peak_ppm": 61.08,
+          "peak_hold_minutes": 216.9,
+          "ramp_down_minutes": 231.0,
+          "noise_percent": 9.6
+        },
+        "Ethyl Acetate": {
+          "ramp_up_minutes": 90.0,
+          "peak_ppm": 43.05,
+          "peak_hold_minutes": 207.3,
+          "ramp_down_minutes": 231.0,
+          "noise_percent": 8.4
+        },
+        "Isopropanol": {
+          "ramp_up_minutes": 80.3,
+          "peak_ppm": 49.56,
+          "peak_hold_minutes": 216.9,
+          "ramp_down_minutes": 231.0,
+          "noise_percent": 9.0
+        },
+        "Toluene": {
+          "ramp_up_minutes": 62.5,
+          "peak_ppm": 20.77,
+          "peak_hold_minutes": 248.1,
+          "ramp_down_minutes": 199.9,
+          "noise_percent": 9.2
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "schema_version": "2.0",
+  "metadata": {
+    "scenario_id": "S07",
+    "scenario_name": "Flooring Adhesive Installation",
+    "device_serial": "SQNT8",
+    "latitude": 32.7971,
+    "longitude": -96.8261,
+    "site_name": "1231 Dragon Street, Dallas, TX 75207",
+    "environment_type": "Indoor",
+    "scenario_note": "After-hours flooring adhesive installation followed by overnight decay.",
+    "building_name": "1231 Dragon Street Office",
+    "floor": 1
+  },
+  "events": [
+    {
+      "event_id": "evt_001",
+      "label": "After-hours flooring adhesive installation followed by overnight decay. \u2014 Event 1",
+      "start_offset_minutes": 1087.3,
+      "gases": {
+        "Acetone": {
+          "ramp_up_minutes": 108.1,
+          "peak_ppm": 51.88,
+          "peak_hold_minutes": 520.3,
+          "ramp_down_minutes": 550.8,
+          "noise_percent": 8.2
+        },
+        "Ethyl Acetate": {
+          "ramp_up_minutes": 121.9,
+          "peak_ppm": 61.98,
+          "peak_hold_minutes": 536.6,
+          "ramp_down_minutes": 520.6,
+          "noise_percent": 7.7
+        },
+        "Toluene": {
+          "ramp_up_minutes": 102.7,
+          "peak_ppm": 27.06,
+          "peak_hold_minutes": 628.5,
+          "ramp_down_minutes": 448.0,
+          "noise_percent": 8.1
+        },
+        "Xylene": {
+          "ramp_up_minutes": 81.3,
+          "peak_ppm": 20.76,
+          "peak_hold_minutes": 708.6,
+          "ramp_down_minutes": 339.5,
+          "noise_percent": 7.8
+        }
+      }
+    },
+    {
+      "event_id": "evt_002",
+      "label": "After-hours flooring adhesive installation followed by overnight decay. \u2014 Event 2",
+      "start_offset_minutes": 2248.7,
+      "gases": {
+        "Xylene": {
+          "ramp_up_minutes": 10.0,
+          "peak_ppm": 10.72,
+          "peak_hold_minutes": 9.6,
+          "ramp_down_minutes": 10.0,
+          "noise_percent": 5.0
+        }
+      }
+    }
+  ]
+}

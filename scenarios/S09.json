@@ -1,0 +1,64 @@
+{
+  "schema_version": "2.0",
+  "metadata": {
+    "scenario_id": "S09",
+    "scenario_name": "Nearby Building Fire Plume",
+    "device_serial": "SQNT8",
+    "latitude": 32.7973,
+    "longitude": -96.8267,
+    "site_name": "Design District plume intercept, Dallas, TX",
+    "environment_type": "Outdoor",
+    "scenario_note": "Nearby building-fire plume interception with residual smoke after active burning."
+  },
+  "events": [
+    {
+      "event_id": "evt_001",
+      "label": "Nearby building-fire plume interception with residual smoke after active burning. \u2014 Event 1",
+      "start_offset_minutes": 1513.0,
+      "gases": {
+        "Carbon Monoxide": {
+          "ramp_up_minutes": 19.4,
+          "peak_ppm": 169.42,
+          "peak_hold_minutes": 221.0,
+          "ramp_down_minutes": 158.0,
+          "noise_percent": 9.2
+        },
+        "Hydrochloric Acid": {
+          "ramp_up_minutes": 19.4,
+          "peak_ppm": 33.19,
+          "peak_hold_minutes": 198.1,
+          "ramp_down_minutes": 180.8,
+          "noise_percent": 8.5
+        },
+        "Hydrogen Cyanide": {
+          "ramp_up_minutes": 19.4,
+          "peak_ppm": 17.73,
+          "peak_hold_minutes": 247.2,
+          "ramp_down_minutes": 83.8,
+          "noise_percent": 7.6
+        },
+        "Sulfur Dioxide": {
+          "ramp_up_minutes": 26.8,
+          "peak_ppm": 26.16,
+          "peak_hold_minutes": 213.6,
+          "ramp_down_minutes": 158.0,
+          "noise_percent": 8.2
+        }
+      }
+    },
+    {
+      "event_id": "evt_002",
+      "label": "Nearby building-fire plume interception with residual smoke after active burning. \u2014 Event 2",
+      "start_offset_minutes": 1894.4,
+      "gases": {
+        "Hydrogen Cyanide": {
+          "ramp_up_minutes": 10.0,
+          "peak_ppm": 10.01,
+          "peak_hold_minutes": 0.0,
+          "ramp_down_minutes": 10.0,
+          "noise_percent": 10.0
+        }
+      }
+    }
+  ]
+}

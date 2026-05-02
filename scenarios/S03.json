@@ -1,0 +1,14 @@
+{
+  "schema_version": "2.0",
+  "metadata": {
+    "scenario_id": "S03",
+    "scenario_name": "Outdoor Clean Baseline",
+    "device_serial": "SQNT8",
+    "latitude": 32.8357,
+    "longitude": -96.7299,
+    "site_name": "White Rock Lake, Dallas, TX",
+    "environment_type": "Outdoor",
+    "scenario_note": "Urban outdoor background baseline with realistic ambient CO2 spread."
+  },
+  "events": []
+}

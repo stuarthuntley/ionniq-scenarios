@@ -1,0 +1,67 @@
+[
+  {
+    "id": "S01",
+    "display_name": "S01: Indoor Quiet Baseline",
+    "description": "1231 Dragon Street, Dallas, TX 75207"
+  },
+  {
+    "id": "S02",
+    "display_name": "S02: High-Density Office Occupancy",
+    "description": "1231 Dragon Street, Dallas, TX 75207"
+  },
+  {
+    "id": "S03",
+    "display_name": "S03: Outdoor Clean Baseline",
+    "description": "White Rock Lake, Dallas, TX"
+  },
+  {
+    "id": "S04",
+    "display_name": "S04: Industrial Corridor Fence-Line",
+    "description": "Industrial Corridor, Dallas, TX"
+  },
+  {
+    "id": "S05",
+    "display_name": "S05: Weekend Cigar Event",
+    "description": "1231 Dragon Street, Dallas, TX 75207"
+  },
+  {
+    "id": "S06",
+    "display_name": "S06: Weekend Paint Work",
+    "description": "1231 Dragon Street, Dallas, TX 75207"
+  },
+  {
+    "id": "S07",
+    "display_name": "S07: Flooring Adhesive Installation",
+    "description": "1231 Dragon Street, Dallas, TX 75207"
+  },
+  {
+    "id": "S08",
+    "display_name": "S08: Garage Exhaust Infiltration",
+    "description": "1231 Dragon Street, Dallas, TX 75207"
+  },
+  {
+    "id": "S09",
+    "display_name": "S09: Nearby Building Fire Plume",
+    "description": "Design District plume intercept, Dallas, TX"
+  },
+  {
+    "id": "S10",
+    "display_name": "S10: Landfill Working Face / Gas Control Area",
+    "description": "McCommas Bluff Landfill, Dallas, TX"
+  },
+  {
+    "id": "S11",
+    "display_name": "S11: Wastewater Upset / Sewer Vent Release",
+    "description": "Dallas Central Wastewater Plant area, Dallas, TX"
+  },
+  {
+    "id": "S12",
+    "display_name": "S12: Asphalt Paving / Materials Operation",
+    "description": "Spangler Road materials corridor, Dallas, TX"
+  },
+  {
+    "id": "S13",
+    "display_name": "S13: Propane Forklift Warehouse",
+    "description": "1835 Empire Central Dr, Dallas, TX 75235"
+  }
+]

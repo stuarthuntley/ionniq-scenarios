@@ -1,0 +1,120 @@
+{
+  "schema_version": "2.0",
+  "metadata": {
+    "scenario_id": "S10",
+    "scenario_name": "Landfill Working Face / Gas Control Area",
+    "device_serial": "SQNT8",
+    "latitude": 32.6803,
+    "longitude": -96.6961,
+    "site_name": "McCommas Bluff Landfill, Dallas, TX",
+    "environment_type": "Outdoor",
+    "scenario_note": "Early-morning stable-air landfill plume near a working face / gas control area."
+  },
+  "events": [
+    {
+      "event_id": "evt_001",
+      "label": "Early-morning stable-air landfill plume near a working face / gas control area. \u2014 Event 1",
+      "start_offset_minutes": 238.4,
+      "gases": {
+        "Methane": {
+          "ramp_up_minutes": 59.8,
+          "peak_ppm": 116.12,
+          "peak_hold_minutes": 89.0,
+          "ramp_down_minutes": 88.3,
+          "noise_percent": 7.8
+        },
+        "Hydrogen Sulfide": {
+          "ramp_up_minutes": 59.8,
+          "peak_ppm": 25.32,
+          "peak_hold_minutes": 89.0,
+          "ramp_down_minutes": 70.7,
+          "noise_percent": 7.4
+        },
+        "Non-methane Organic Compounds": {
+          "ramp_up_minutes": 48.3,
+          "peak_ppm": 31.46,
+          "peak_hold_minutes": 112.6,
+          "ramp_down_minutes": 76.2,
+          "noise_percent": 9.9
+        },
+        "Ammonia": {
+          "ramp_up_minutes": 38.5,
+          "peak_ppm": 19.17,
+          "peak_hold_minutes": 100.5,
+          "ramp_down_minutes": 50.9,
+          "noise_percent": 9.3
+        }
+      }
+    },
+    {
+      "event_id": "evt_002",
+      "label": "Early-morning stable-air landfill plume near a working face / gas control area. \u2014 Event 2",
+      "start_offset_minutes": 1689.7,
+      "gases": {
+        "Ammonia": {
+          "ramp_up_minutes": 48.6,
+          "peak_ppm": 19.75,
+          "peak_hold_minutes": 97.3,
+          "ramp_down_minutes": 34.4,
+          "noise_percent": 8.5
+        },
+        "Methane": {
+          "ramp_up_minutes": 40.5,
+          "peak_ppm": 118.01,
+          "peak_hold_minutes": 89.0,
+          "ramp_down_minutes": 88.7,
+          "noise_percent": 8.4
+        },
+        "Hydrogen Sulfide": {
+          "ramp_up_minutes": 40.5,
+          "peak_ppm": 24.23,
+          "peak_hold_minutes": 105.4,
+          "ramp_down_minutes": 59.8,
+          "noise_percent": 10.0
+        },
+        "Non-methane Organic Compounds": {
+          "ramp_up_minutes": 48.6,
+          "peak_ppm": 31.2,
+          "peak_hold_minutes": 92.0,
+          "ramp_down_minutes": 77.7,
+          "noise_percent": 5.6
+        }
+      }
+    },
+    {
+      "event_id": "evt_003",
+      "label": "Early-morning stable-air landfill plume near a working face / gas control area. \u2014 Event 3",
+      "start_offset_minutes": 3129.2,
+      "gases": {
+        "Ammonia": {
+          "ramp_up_minutes": 29.9,
+          "peak_ppm": 19.45,
+          "peak_hold_minutes": 106.7,
+          "ramp_down_minutes": 62.9,
+          "noise_percent": 8.9
+        },
+        "Methane": {
+          "ramp_up_minutes": 47.7,
+          "peak_ppm": 115.6,
+          "peak_hold_minutes": 88.9,
+          "ramp_down_minutes": 90.6,
+          "noise_percent": 8.6
+        },
+        "Hydrogen Sulfide": {
+          "ramp_up_minutes": 38.4,
+          "peak_ppm": 24.77,
+          "peak_hold_minutes": 98.2,
+          "ramp_down_minutes": 52.0,
+          "noise_percent": 7.5
+        },
+        "Non-methane Organic Compounds": {
+          "ramp_up_minutes": 47.7,
+          "peak_ppm": 31.21,
+          "peak_hold_minutes": 88.9,
+          "ramp_down_minutes": 90.6,
+          "noise_percent": 6.9
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "schema_version": "2.0",
+  "metadata": {
+    "scenario_id": "S05",
+    "scenario_name": "Weekend Cigar Event",
+    "device_serial": "SQNT8",
+    "latitude": 32.7971,
+    "longitude": -96.8261,
+    "site_name": "1231 Dragon Street, Dallas, TX 75207",
+    "environment_type": "Indoor",
+    "scenario_note": "Closed-room weekend cigar event with several-hour ventilation decay.",
+    "building_name": "1231 Dragon Street Office",
+    "floor": 1
+  },
+  "events": [
+    {
+      "event_id": "evt_001",
+      "label": "Closed-room weekend cigar event with several-hour ventilation decay.",
+      "start_offset_minutes": 2279.2,
+      "gases": {
+        "Ammonia": {
+          "ramp_up_minutes": 10.0,
+          "peak_ppm": 17.32,
+          "peak_hold_minutes": 111.0,
+          "ramp_down_minutes": 68.4,
+          "noise_percent": 5.7
+        },
+        "Carbon Monoxide": {
+          "ramp_up_minutes": 10.0,
+          "peak_ppm": 36.89,
+          "peak_hold_minutes": 120.9,
+          "ramp_down_minutes": 226.0,
+          "noise_percent": 7.4
+        },
+        "Nitrogen Dioxide": {
+          "ramp_up_minutes": 10.0,
+          "peak_ppm": 15.65,
+          "peak_hold_minutes": 111.0,
+          "ramp_down_minutes": 46.1,
+          "noise_percent": 6.3
+        }
+      }
+    }
+  ]
+}

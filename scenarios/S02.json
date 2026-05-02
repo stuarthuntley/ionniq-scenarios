@@ -1,14 +1,14 @@
 {
   "schema_version": "2.0",
   "metadata": {
-    "scenario_id": "S01",
-    "scenario_name": "Indoor Quiet Baseline",
+    "scenario_id": "S02",
+    "scenario_name": "High-Density Office Occupancy",
     "device_serial": "SQNT8",
     "latitude": 32.7971,
     "longitude": -96.8261,
     "site_name": "1231 Dragon Street, Dallas, TX 75207",
     "environment_type": "Indoor",
-    "scenario_note": "Quiet baseline office air with broader ventilation-driven CO2 variability.",
+    "scenario_note": "Weekday occupancy-driven CO2 loading with stronger normal ventilation variability.",
     "building_name": "1231 Dragon Street Office",
     "floor": 1
   },

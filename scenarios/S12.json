@@ -1,0 +1,57 @@
+{
+  "schema_version": "2.0",
+  "metadata": {
+    "scenario_id": "S12",
+    "scenario_name": "Asphalt Paving / Materials Operation",
+    "device_serial": "SQNT8",
+    "latitude": 32.8706,
+    "longitude": -96.6889,
+    "site_name": "Spangler Road materials corridor, Dallas, TX",
+    "environment_type": "Outdoor",
+    "scenario_note": "Hot-mix paving operation with traffic-adjacent hydrocarbon influence."
+  },
+  "events": [
+    {
+      "event_id": "evt_001",
+      "label": "Hot-mix paving operation with traffic-adjacent hydrocarbon influence. \u2014 Event 1",
+      "start_offset_minutes": 490.3,
+      "gases": {
+        "Carbon Monoxide": {
+          "ramp_up_minutes": 127.9,
+          "peak_ppm": 22.85,
+          "peak_hold_minutes": 219.7,
+          "ramp_down_minutes": 121.3,
+          "noise_percent": 7.6
+        },
+        "Toluene": {
+          "ramp_up_minutes": 127.9,
+          "peak_ppm": 24.96,
+          "peak_hold_minutes": 219.7,
+          "ramp_down_minutes": 121.3,
+          "noise_percent": 8.2
+        },
+        "Xylene": {
+          "ramp_up_minutes": 110.8,
+          "peak_ppm": 18.94,
+          "peak_hold_minutes": 225.6,
+          "ramp_down_minutes": 90.4,
+          "noise_percent": 7.6
+        }
+      }
+    },
+    {
+      "event_id": "evt_002",
+      "label": "Hot-mix paving operation with traffic-adjacent hydrocarbon influence. \u2014 Event 2",
+      "start_offset_minutes": 959.2,
+      "gases": {
+        "Xylene": {
+          "ramp_up_minutes": 10.0,
+          "peak_ppm": 10.56,
+          "peak_hold_minutes": 0.0,
+          "ramp_down_minutes": 10.0,
+          "noise_percent": 10.0
+        }
+      }
+    }
+  ]
+}

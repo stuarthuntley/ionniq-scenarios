@@ -1,0 +1,99 @@
+{
+  "schema_version": "2.0",
+  "metadata": {
+    "scenario_id": "S04",
+    "scenario_name": "Industrial Corridor Fence-Line",
+    "device_serial": "SQNT8",
+    "latitude": 32.8654,
+    "longitude": -96.944,
+    "site_name": "Industrial Corridor, Dallas, TX",
+    "environment_type": "Outdoor",
+    "scenario_note": "Traffic plus light industrial solvent influence at a fence-line position."
+  },
+  "events": [
+    {
+      "event_id": "evt_001",
+      "label": "Traffic plus light industrial solvent influence at a fence-line position. \u2014 Event 1",
+      "start_offset_minutes": 389.7,
+      "gases": {
+        "Carbon Monoxide": {
+          "ramp_up_minutes": 36.8,
+          "peak_ppm": 24.61,
+          "peak_hold_minutes": 90.7,
+          "ramp_down_minutes": 52.9,
+          "noise_percent": 9.5
+        }
+      }
+    },
+    {
+      "event_id": "evt_002",
+      "label": "Traffic plus light industrial solvent influence at a fence-line position. \u2014 Event 2",
+      "start_offset_minutes": 930.7,
+      "gases": {
+        "Carbon Monoxide": {
+          "ramp_up_minutes": 60.5,
+          "peak_ppm": 22.58,
+          "peak_hold_minutes": 86.0,
+          "ramp_down_minutes": 72.8,
+          "noise_percent": 8.3
+        }
+      }
+    },
+    {
+      "event_id": "evt_003",
+      "label": "Traffic plus light industrial solvent influence at a fence-line position. \u2014 Event 3",
+      "start_offset_minutes": 1817.8,
+      "gases": {
+        "Carbon Monoxide": {
+          "ramp_up_minutes": 59.1,
+          "peak_ppm": 25.27,
+          "peak_hold_minutes": 81.2,
+          "ramp_down_minutes": 38.9,
+          "noise_percent": 8.3
+        }
+      }
+    },
+    {
+      "event_id": "evt_004",
+      "label": "Traffic plus light industrial solvent influence at a fence-line position. \u2014 Event 4",
+      "start_offset_minutes": 2378.3,
+      "gases": {
+        "Carbon Monoxide": {
+          "ramp_up_minutes": 58.9,
+          "peak_ppm": 22.83,
+          "peak_hold_minutes": 81.3,
+          "ramp_down_minutes": 71.3,
+          "noise_percent": 10.0
+        }
+      }
+    },
+    {
+      "event_id": "evt_005",
+      "label": "Traffic plus light industrial solvent influence at a fence-line position. \u2014 Event 5",
+      "start_offset_minutes": 3258.3,
+      "gases": {
+        "Carbon Monoxide": {
+          "ramp_up_minutes": 58.6,
+          "peak_ppm": 24.47,
+          "peak_hold_minutes": 69.8,
+          "ramp_down_minutes": 60.7,
+          "noise_percent": 7.1
+        }
+      }
+    },
+    {
+      "event_id": "evt_006",
+      "label": "Traffic plus light industrial solvent influence at a fence-line position. \u2014 Event 6",
+      "start_offset_minutes": 3808.2,
+      "gases": {
+        "Carbon Monoxide": {
+          "ramp_up_minutes": 71.7,
+          "peak_ppm": 23.36,
+          "peak_hold_minutes": 89.5,
+          "ramp_down_minutes": 47.6,
+          "noise_percent": 9.0
+        }
+      }
+    }
+  ]
+}

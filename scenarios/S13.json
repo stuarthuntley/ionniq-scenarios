@@ -1,0 +1,136 @@
+{
+  "schema_version": "2.0",
+  "metadata": {
+    "scenario_id": "S13",
+    "scenario_name": "Propane Forklift Warehouse",
+    "device_serial": "SQNT8",
+    "latitude": 32.827237,
+    "longitude": -96.85863,
+    "site_name": "1835 Empire Central Dr, Dallas, TX 75235",
+    "environment_type": "Indoor",
+    "scenario_note": "Poorly ventilated 4,000 sq ft warehouse with about 20 propane forklifts operating during work shifts.",
+    "building_name": "Empire Central Warehouse",
+    "floor": 1
+  },
+  "events": [
+    {
+      "event_id": "evt_001",
+      "label": "Poorly ventilated 4,000 sq ft warehouse with about 20 propane forklifts operating during work shifts. \u2014 Event 1",
+      "start_offset_minutes": 475.9,
+      "gases": {
+        "Carbon Monoxide": {
+          "ramp_up_minutes": 40.6,
+          "peak_ppm": 96.96,
+          "peak_hold_minutes": 465.2,
+          "ramp_down_minutes": 40.8,
+          "noise_percent": 9.1
+        },
+        "Propane": {
+          "ramp_up_minutes": 20.4,
+          "peak_ppm": 58.69,
+          "peak_hold_minutes": 424.6,
+          "ramp_down_minutes": 30.6,
+          "noise_percent": 7.8
+        },
+        "Nitric Oxide": {
+          "ramp_up_minutes": 104.0,
+          "peak_ppm": 31.9,
+          "peak_hold_minutes": 362.3,
+          "ramp_down_minutes": 59.6,
+          "noise_percent": 7.3
+        },
+        "Nitrogen Dioxide": {
+          "ramp_up_minutes": 91.6,
+          "peak_ppm": 21.68,
+          "peak_hold_minutes": 317.6,
+          "ramp_down_minutes": 56.0,
+          "noise_percent": 7.3
+        }
+      }
+    },
+    {
+      "event_id": "evt_002",
+      "label": "Poorly ventilated 4,000 sq ft warehouse with about 20 propane forklifts operating during work shifts. \u2014 Event 2",
+      "start_offset_minutes": 1929.2,
+      "gases": {
+        "Carbon Monoxide": {
+          "ramp_up_minutes": 69.9,
+          "peak_ppm": 86.64,
+          "peak_hold_minutes": 395.4,
+          "ramp_down_minutes": 82.6,
+          "noise_percent": 9.4
+        },
+        "Nitric Oxide": {
+          "ramp_up_minutes": 59.5,
+          "peak_ppm": 31.77,
+          "peak_hold_minutes": 363.3,
+          "ramp_down_minutes": 95.7,
+          "noise_percent": 8.7
+        },
+        "Propane": {
+          "ramp_up_minutes": 52.0,
+          "peak_ppm": 62.94,
+          "peak_hold_minutes": 416.4,
+          "ramp_down_minutes": 21.3,
+          "noise_percent": 8.3
+        },
+        "Nitrogen Dioxide": {
+          "ramp_up_minutes": 21.6,
+          "peak_ppm": 22.39,
+          "peak_hold_minutes": 404.9,
+          "ramp_down_minutes": 42.8,
+          "noise_percent": 9.3
+        }
+      }
+    },
+    {
+      "event_id": "evt_003",
+      "label": "Poorly ventilated 4,000 sq ft warehouse with about 20 propane forklifts operating during work shifts. \u2014 Event 3",
+      "start_offset_minutes": 3405.8,
+      "gases": {
+        "Nitric Oxide": {
+          "ramp_up_minutes": 38.1,
+          "peak_ppm": 30.07,
+          "peak_hold_minutes": 366.4,
+          "ramp_down_minutes": 49.5,
+          "noise_percent": 8.1
+        },
+        "Carbon Monoxide": {
+          "ramp_up_minutes": 146.1,
+          "peak_ppm": 88.86,
+          "peak_hold_minutes": 178.6,
+          "ramp_down_minutes": 112.1,
+          "noise_percent": 7.5
+        },
+        "Propane": {
+          "ramp_up_minutes": 103.1,
+          "peak_ppm": 58.36,
+          "peak_hold_minutes": 282.7,
+          "ramp_down_minutes": 10.4,
+          "noise_percent": 8.6
+        },
+        "Nitrogen Dioxide": {
+          "ramp_up_minutes": 10.0,
+          "peak_ppm": 21.59,
+          "peak_hold_minutes": 386.6,
+          "ramp_down_minutes": 10.0,
+          "noise_percent": 7.6
+        }
+      }
+    },
+    {
+      "event_id": "evt_004",
+      "label": "Poorly ventilated 4,000 sq ft warehouse with about 20 propane forklifts operating during work shifts. \u2014 Event 4",
+      "start_offset_minutes": 3899.8,
+      "gases": {
+        "Carbon Monoxide": {
+          "ramp_up_minutes": 10.0,
+          "peak_ppm": 11.77,
+          "peak_hold_minutes": 0.0,
+          "ramp_down_minutes": 10.0,
+          "noise_percent": 10.0
+        }
+      }
+    }
+  ]
+}

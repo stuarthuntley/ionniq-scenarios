@@ -1,0 +1,50 @@
+{
+  "schema_version": "2.0",
+  "metadata": {
+    "scenario_id": "S11",
+    "scenario_name": "Wastewater Upset / Sewer Vent Release",
+    "device_serial": "SQNT8",
+    "latitude": 32.7443,
+    "longitude": -96.8973,
+    "site_name": "Dallas Central Wastewater Plant area, Dallas, TX",
+    "environment_type": "Outdoor",
+    "scenario_note": "Wastewater upset / vent-release signature during an early Sunday process upset."
+  },
+  "events": [
+    {
+      "event_id": "evt_001",
+      "label": "Wastewater upset / vent-release signature during an early Sunday process upset.",
+      "start_offset_minutes": 3251.9,
+      "gases": {
+        "Ammonia": {
+          "ramp_up_minutes": 60.3,
+          "peak_ppm": 24.87,
+          "peak_hold_minutes": 118.8,
+          "ramp_down_minutes": 101.2,
+          "noise_percent": 7.8
+        },
+        "Methane": {
+          "ramp_up_minutes": 60.3,
+          "peak_ppm": 41.37,
+          "peak_hold_minutes": 118.8,
+          "ramp_down_minutes": 101.2,
+          "noise_percent": 8.5
+        },
+        "Hydrogen Sulfide": {
+          "ramp_up_minutes": 60.3,
+          "peak_ppm": 35.69,
+          "peak_hold_minutes": 118.8,
+          "ramp_down_minutes": 101.2,
+          "noise_percent": 9.1
+        },
+        "Methanol": {
+          "ramp_up_minutes": 37.5,
+          "peak_ppm": 20.86,
+          "peak_hold_minutes": 140.2,
+          "ramp_down_minutes": 60.9,
+          "noise_percent": 8.2
+        }
+      }
+    }
+  ]
+}
