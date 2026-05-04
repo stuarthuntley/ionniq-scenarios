@@ -1,0 +1,57 @@
+{
+  "schema_version": "2.0",
+  "metadata": {
+    "scenario_id": "S32",
+    "scenario_name": "Wildfire Smoke Plume \u2014 Ground-Level Transport",
+    "device_serial": "WFR6P2",
+    "latitude": 45.5252,
+    "longitude": -122.7351,
+    "site_name": "Wildwood Recreation Site, Portland, OR 97210",
+    "environment_type": "Outdoor (Ambient)",
+    "scenario_note": "Residential park boundary. Smoke plume from Eagle Creek burn 45 miles east. Ground-level transport under temperature inversion. AQI >200 during peak impact hours."
+  },
+  "events": [
+    {
+      "event_id": "evt_001",
+      "label": "Morning inversion \u2014 smoke plume ground impact",
+      "start_offset_minutes": 120,
+      "gases": {
+        "Carbon Monoxide": {
+          "ramp_up_minutes": 60,
+          "peak_ppm": 8.5,
+          "peak_hold_minutes": 180,
+          "ramp_down_minutes": 90,
+          "noise_percent": 15
+        },
+        "Formaldehyde": {
+          "ramp_up_minutes": 60,
+          "peak_ppm": 0.48,
+          "peak_hold_minutes": 180,
+          "ramp_down_minutes": 90,
+          "noise_percent": 18
+        },
+        "Acrolein": {
+          "ramp_up_minutes": 60,
+          "peak_ppm": 0.22,
+          "peak_hold_minutes": 180,
+          "ramp_down_minutes": 90,
+          "noise_percent": 22
+        },
+        "Nitrogen Dioxide": {
+          "ramp_up_minutes": 60,
+          "peak_ppm": 0.95,
+          "peak_hold_minutes": 180,
+          "ramp_down_minutes": 90,
+          "noise_percent": 18
+        },
+        "Non-methane Organic Compounds": {
+          "ramp_up_minutes": 60,
+          "peak_ppm": 0.65,
+          "peak_hold_minutes": 180,
+          "ramp_down_minutes": 90,
+          "noise_percent": 15
+        }
+      }
+    }
+  ]
+}
