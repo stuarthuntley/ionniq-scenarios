@@ -63,5 +63,155 @@
     "id": "S13",
     "display_name": "S13: Propane Forklift Warehouse",
     "description": "1835 Empire Central Dr, Dallas, TX 75235"
+  },
+  {
+    "id": "S14",
+    "display_name": "S14: Data Center Server Room \u2014 Clean Baseline",
+    "description": "2101 4th Ave, Seattle, WA 98121"
+  },
+  {
+    "id": "S15",
+    "display_name": "S15: Office Kitchen Combustion Event",
+    "description": "1 World Trade Center, New York, NY 10007"
+  },
+  {
+    "id": "S16",
+    "display_name": "S16: Nail Salon VOC Saturation",
+    "description": "8600 Sunset Blvd, West Hollywood, CA 90069"
+  },
+  {
+    "id": "S17",
+    "display_name": "S17: Natural Gas Line Leak \u2014 High-Rise",
+    "description": "300 N LaSalle Dr, Chicago, IL 60654"
+  },
+  {
+    "id": "S18",
+    "display_name": "S18: Cleaning Chemical Mixing Incident",
+    "description": "191 Peachtree Tower, Atlanta, GA 30303"
+  },
+  {
+    "id": "S19",
+    "display_name": "S19: Dry Cleaning Infiltration \u2014 Adjacent Unit",
+    "description": "1450 Brickell Ave, Miami, FL 33131"
+  },
+  {
+    "id": "S20",
+    "display_name": "S20: Office Renovation \u2014 Adhesive and Sealant Application",
+    "description": "1700 Market St, Philadelphia, PA 19103"
+  },
+  {
+    "id": "S21",
+    "display_name": "S21: HVAC Ozone and NOx Intrusion Event",
+    "description": "2 N Central Ave, Phoenix, AZ 85004"
+  },
+  {
+    "id": "S22",
+    "display_name": "S22: Diesel Generator Load Test",
+    "description": "4600 Westway Park Blvd, Houston, TX 77041"
+  },
+  {
+    "id": "S23",
+    "display_name": "S23: Li-Ion Battery Pack Thermal Runaway",
+    "description": "45500 Fremont Blvd, Fremont, CA 94538"
+  },
+  {
+    "id": "S24",
+    "display_name": "S24: Lead-Acid Battery Bank Overcharge",
+    "description": "650 S Tryon St, Charlotte, NC 28202"
+  },
+  {
+    "id": "S25",
+    "display_name": "S25: Hot Work \u2014 Welding Fumes Accumulation",
+    "description": "100 River Rd, Pittsburgh, PA 15212"
+  },
+  {
+    "id": "S26",
+    "display_name": "S26: Chlorinated Solvent Degreasing Tank",
+    "description": "2400 E McNichols Rd, Detroit, MI 48212"
+  },
+  {
+    "id": "S27",
+    "display_name": "S27: Refrigerant Leak \u2014 Chiller Room",
+    "description": "800 Washington Ave N, Minneapolis, MN 55401"
+  },
+  {
+    "id": "S28",
+    "display_name": "S28: Chemical Batch Mixing Incident",
+    "description": "4747 Harrison Ave, Cincinnati, OH 45248"
+  },
+  {
+    "id": "S29",
+    "display_name": "S29: Commercial Print Shop \u2014 Ink and Solvent Fumes",
+    "description": "5625 W 73rd St, Indianapolis, IN 46278"
+  },
+  {
+    "id": "S30",
+    "display_name": "S30: Fuel Oil Boiler Room \u2014 Startup Combustion",
+    "description": "155 Seaport Blvd, Boston, MA 02210"
+  },
+  {
+    "id": "S31",
+    "display_name": "S31: Structural Fire \u2014 Interior Warehouse",
+    "description": "8200 Zionsville Rd, Detroit, MI 48228"
+  },
+  {
+    "id": "S32",
+    "display_name": "S32: Wildfire Smoke Plume \u2014 Ground-Level Transport",
+    "description": "Wildwood Recreation Site, Portland, OR 97210"
+  },
+  {
+    "id": "S33",
+    "display_name": "S33: Diesel Truck Terminal \u2014 Idle Corridor",
+    "description": "8585 Stemmons Fwy, Dallas, TX 75247"
+  },
+  {
+    "id": "S34",
+    "display_name": "S34: Agricultural Ammonia Fertilizer Application",
+    "description": "Manning Ave & Shields Ave, Fresno, CA 93706"
+  },
+  {
+    "id": "S35",
+    "display_name": "S35: Petrochemical Plant Fence-Line Monitoring",
+    "description": "Hwy 30 & Old River Rd, Baton Rouge, LA 70805"
+  },
+  {
+    "id": "S36",
+    "display_name": "S36: Wastewater Treatment \u2014 Digester Biogas Venting",
+    "description": "2250 S 35th Ave, Phoenix, AZ 85009"
+  },
+  {
+    "id": "S37",
+    "display_name": "S37: Urban Road Repaving Operation",
+    "description": "Lake Shore Dr at Belmont Ave, Chicago, IL 60657"
+  },
+  {
+    "id": "S38",
+    "display_name": "S38: Oil Refinery Flare Stack \u2014 Startup Vent",
+    "description": "3801 Saginaw St, Houston, TX 77020"
+  },
+  {
+    "id": "S39",
+    "display_name": "S39: Shipyard Hull Coating Operation",
+    "description": "2700 Broening Hwy, Baltimore, MD 21222"
+  },
+  {
+    "id": "S40",
+    "display_name": "S40: Fertilizer Plant \u2014 Ammonia Storage Vent",
+    "description": "1301 Burlington St, Kansas City, MO 64116"
+  },
+  {
+    "id": "S41",
+    "display_name": "S41: Gasoline Vapor Recovery Failure",
+    "description": "101 Howard St, San Francisco, CA 94105"
+  },
+  {
+    "id": "S42",
+    "display_name": "S42: Urban Traffic Corridor \u2014 Morning Inversion",
+    "description": "Lincoln Tunnel Approach, Weehawken, NJ 07086"
+  },
+  {
+    "id": "S43",
+    "display_name": "S43: Post-Wildfire Ash Resuspension Event",
+    "description": "Power Inn Rd & Elder Creek Rd, Sacramento, CA 95828"
   }
 ]
