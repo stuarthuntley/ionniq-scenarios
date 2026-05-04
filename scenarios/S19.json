@@ -1,0 +1,43 @@
+{
+  "schema_version": "2.0",
+  "metadata": {
+    "scenario_id": "S19",
+    "scenario_name": "Dry Cleaning Infiltration \u2014 Adjacent Unit",
+    "device_serial": "DCL4V6",
+    "latitude": 25.7599,
+    "longitude": -80.192,
+    "site_name": "1450 Brickell Ave, Miami, FL 33131",
+    "environment_type": "Indoor (Office)",
+    "scenario_note": "Commercial office suite adjacent to dry cleaning operation. Inadequate HVAC separation allows solvent vapor migration through shared plenum during business hours."
+  },
+  "events": [
+    {
+      "event_id": "evt_001",
+      "label": "Daily dry cleaning operations \u2014 TCE and solvent infiltration",
+      "start_offset_minutes": 60,
+      "gases": {
+        "Trichloroethylene": {
+          "ramp_up_minutes": 40,
+          "peak_ppm": 18.0,
+          "peak_hold_minutes": 480,
+          "ramp_down_minutes": 90,
+          "noise_percent": 12
+        },
+        "Xylene": {
+          "ramp_up_minutes": 40,
+          "peak_ppm": 8.0,
+          "peak_hold_minutes": 480,
+          "ramp_down_minutes": 90,
+          "noise_percent": 12
+        },
+        "Toluene": {
+          "ramp_up_minutes": 40,
+          "peak_ppm": 6.0,
+          "peak_hold_minutes": 480,
+          "ramp_down_minutes": 90,
+          "noise_percent": 12
+        }
+      }
+    }
+  ]
+}
