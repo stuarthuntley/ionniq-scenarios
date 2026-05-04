@@ -1,0 +1,57 @@
+{
+  "schema_version": "2.0",
+  "metadata": {
+    "scenario_id": "S39",
+    "scenario_name": "Shipyard Hull Coating Operation",
+    "device_serial": "SHP8V3",
+    "latitude": 39.249,
+    "longitude": -76.551,
+    "site_name": "2700 Broening Hwy, Baltimore, MD 21222",
+    "environment_type": "Outdoor (Ambient)",
+    "scenario_note": "Marine dry dock, hull coating application. High-solids alkyd anti-corrosion coating sprayed in open dry dock. Wind shift brings solvent plume toward monitoring station."
+  },
+  "events": [
+    {
+      "event_id": "evt_001",
+      "label": "Spray coating \u2014 high-solids alkyd solvent plume",
+      "start_offset_minutes": 90,
+      "gases": {
+        "Xylene": {
+          "ramp_up_minutes": 25,
+          "peak_ppm": 32.0,
+          "peak_hold_minutes": 240,
+          "ramp_down_minutes": 60,
+          "noise_percent": 12
+        },
+        "Toluene": {
+          "ramp_up_minutes": 25,
+          "peak_ppm": 18.0,
+          "peak_hold_minutes": 240,
+          "ramp_down_minutes": 60,
+          "noise_percent": 12
+        },
+        "Styrene": {
+          "ramp_up_minutes": 25,
+          "peak_ppm": 8.5,
+          "peak_hold_minutes": 240,
+          "ramp_down_minutes": 60,
+          "noise_percent": 15
+        },
+        "Hexane": {
+          "ramp_up_minutes": 25,
+          "peak_ppm": 22.0,
+          "peak_hold_minutes": 240,
+          "ramp_down_minutes": 60,
+          "noise_percent": 12
+        },
+        "Methyl Ethyl Ketone": {
+          "ramp_up_minutes": 25,
+          "peak_ppm": 45.0,
+          "peak_hold_minutes": 240,
+          "ramp_down_minutes": 60,
+          "noise_percent": 12
+        }
+      }
+    }
+  ]
+}
