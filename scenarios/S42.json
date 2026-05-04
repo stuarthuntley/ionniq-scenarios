@@ -1,0 +1,57 @@
+{
+  "schema_version": "2.0",
+  "metadata": {
+    "scenario_id": "S42",
+    "scenario_name": "Urban Traffic Corridor \u2014 Morning Inversion",
+    "device_serial": "UTC9H7",
+    "latitude": 40.768,
+    "longitude": -74.0222,
+    "site_name": "Lincoln Tunnel Approach, Weehawken, NJ 07086",
+    "environment_type": "Outdoor (Ambient)",
+    "scenario_note": "High-density vehicle corridor under morning temperature inversion. Pre-rush diesel transit buses and HDV fleet contribute to NOx and CO accumulation before atmospheric mixing begins."
+  },
+  "events": [
+    {
+      "event_id": "evt_001",
+      "label": "Pre-rush hour inversion \u2014 mobile source NOx and CO accumulation",
+      "start_offset_minutes": 30,
+      "gases": {
+        "Nitric Oxide": {
+          "ramp_up_minutes": 45,
+          "peak_ppm": 22.0,
+          "peak_hold_minutes": 120,
+          "ramp_down_minutes": 90,
+          "noise_percent": 15
+        },
+        "Nitrogen Dioxide": {
+          "ramp_up_minutes": 45,
+          "peak_ppm": 3.2,
+          "peak_hold_minutes": 120,
+          "ramp_down_minutes": 90,
+          "noise_percent": 15
+        },
+        "Carbon Monoxide": {
+          "ramp_up_minutes": 45,
+          "peak_ppm": 9.5,
+          "peak_hold_minutes": 120,
+          "ramp_down_minutes": 90,
+          "noise_percent": 12
+        },
+        "Non-methane Organic Compounds": {
+          "ramp_up_minutes": 45,
+          "peak_ppm": 0.55,
+          "peak_hold_minutes": 120,
+          "ramp_down_minutes": 90,
+          "noise_percent": 18
+        },
+        "Ozone": {
+          "ramp_up_minutes": 60,
+          "peak_ppm": 0.35,
+          "peak_hold_minutes": 90,
+          "ramp_down_minutes": 90,
+          "noise_percent": 20
+        }
+      }
+    }
+  ]
+}
