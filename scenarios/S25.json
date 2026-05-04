@@ -1,0 +1,57 @@
+{
+  "schema_version": "2.0",
+  "metadata": {
+    "scenario_id": "S25",
+    "scenario_name": "Hot Work \u2014 Welding Fumes Accumulation",
+    "device_serial": "WLD6K2",
+    "latitude": 40.453,
+    "longitude": -80.0131,
+    "site_name": "100 River Rd, Pittsburgh, PA 15212",
+    "environment_type": "Industrial Floor",
+    "scenario_note": "Steel fabrication shop. Three simultaneous MIG welding stations on galvanized structural steel without adequate local exhaust ventilation."
+  },
+  "events": [
+    {
+      "event_id": "evt_001",
+      "label": "Multi-station welding \u2014 mixed metal and combustion fumes",
+      "start_offset_minutes": 0,
+      "gases": {
+        "Nitric Oxide": {
+          "ramp_up_minutes": 15,
+          "peak_ppm": 32.0,
+          "peak_hold_minutes": 360,
+          "ramp_down_minutes": 30,
+          "noise_percent": 12
+        },
+        "Nitrogen Dioxide": {
+          "ramp_up_minutes": 15,
+          "peak_ppm": 3.8,
+          "peak_hold_minutes": 360,
+          "ramp_down_minutes": 30,
+          "noise_percent": 12
+        },
+        "Carbon Monoxide": {
+          "ramp_up_minutes": 15,
+          "peak_ppm": 55.0,
+          "peak_hold_minutes": 360,
+          "ramp_down_minutes": 30,
+          "noise_percent": 10
+        },
+        "Ozone": {
+          "ramp_up_minutes": 20,
+          "peak_ppm": 0.38,
+          "peak_hold_minutes": 360,
+          "ramp_down_minutes": 30,
+          "noise_percent": 18
+        },
+        "Hydrogen Cyanide": {
+          "ramp_up_minutes": 20,
+          "peak_ppm": 1.2,
+          "peak_hold_minutes": 360,
+          "ramp_down_minutes": 30,
+          "noise_percent": 20
+        }
+      }
+    }
+  ]
+}
