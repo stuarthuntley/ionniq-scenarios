@@ -1,0 +1,57 @@
+{
+  "schema_version": "2.0",
+  "metadata": {
+    "scenario_id": "S41",
+    "scenario_name": "Gasoline Vapor Recovery Failure",
+    "device_serial": "GVR3S5",
+    "latitude": 37.7887,
+    "longitude": -122.3977,
+    "site_name": "101 Howard St, San Francisco, CA 94105",
+    "environment_type": "Outdoor (Ambient)",
+    "scenario_note": "Below-grade fuel storage vent survey near financial district parking structure. Stage II vapor recovery system failure allows gasoline vapor release during high-volume fueling."
+  },
+  "events": [
+    {
+      "event_id": "evt_001",
+      "label": "VR system failure \u2014 gasoline vapor release",
+      "start_offset_minutes": 60,
+      "gases": {
+        "Benzene": {
+          "ramp_up_minutes": 15,
+          "peak_ppm": 2.2,
+          "peak_hold_minutes": 120,
+          "ramp_down_minutes": 60,
+          "noise_percent": 15
+        },
+        "Toluene": {
+          "ramp_up_minutes": 15,
+          "peak_ppm": 18.0,
+          "peak_hold_minutes": 120,
+          "ramp_down_minutes": 60,
+          "noise_percent": 12
+        },
+        "Xylene": {
+          "ramp_up_minutes": 15,
+          "peak_ppm": 12.5,
+          "peak_hold_minutes": 120,
+          "ramp_down_minutes": 60,
+          "noise_percent": 12
+        },
+        "Ethane": {
+          "ramp_up_minutes": 15,
+          "peak_ppm": 850.0,
+          "peak_hold_minutes": 120,
+          "ramp_down_minutes": 60,
+          "noise_percent": 10
+        },
+        "Butane": {
+          "ramp_up_minutes": 15,
+          "peak_ppm": 320.0,
+          "peak_hold_minutes": 120,
+          "ramp_down_minutes": 60,
+          "noise_percent": 10
+        }
+      }
+    }
+  ]
+}
