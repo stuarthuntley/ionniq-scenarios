@@ -1,0 +1,57 @@
+{
+  "schema_version": "2.0",
+  "metadata": {
+    "scenario_id": "S33",
+    "scenario_name": "Diesel Truck Terminal \u2014 Idle Corridor",
+    "device_serial": "TRK4D8",
+    "latitude": 32.8168,
+    "longitude": -96.8768,
+    "site_name": "8585 Stemmons Fwy, Dallas, TX 75247",
+    "environment_type": "Outdoor (Ambient)",
+    "scenario_note": "Truck staging yard adjacent to cold storage distribution hub. 80\u2013100 diesel trucks idling in receiving queue during peak hours. Downwind monitoring at property line."
+  },
+  "events": [
+    {
+      "event_id": "evt_001",
+      "label": "Morning receiving window \u2014 dense idle diesel exhaust",
+      "start_offset_minutes": 60,
+      "gases": {
+        "Carbon Monoxide": {
+          "ramp_up_minutes": 30,
+          "peak_ppm": 12.5,
+          "peak_hold_minutes": 240,
+          "ramp_down_minutes": 60,
+          "noise_percent": 12
+        },
+        "Nitric Oxide": {
+          "ramp_up_minutes": 30,
+          "peak_ppm": 18.0,
+          "peak_hold_minutes": 240,
+          "ramp_down_minutes": 60,
+          "noise_percent": 12
+        },
+        "Nitrogen Dioxide": {
+          "ramp_up_minutes": 30,
+          "peak_ppm": 1.8,
+          "peak_hold_minutes": 240,
+          "ramp_down_minutes": 60,
+          "noise_percent": 15
+        },
+        "Ethane": {
+          "ramp_up_minutes": 30,
+          "peak_ppm": 580.0,
+          "peak_hold_minutes": 240,
+          "ramp_down_minutes": 60,
+          "noise_percent": 10
+        },
+        "Propane": {
+          "ramp_up_minutes": 30,
+          "peak_ppm": 35.0,
+          "peak_hold_minutes": 240,
+          "ramp_down_minutes": 60,
+          "noise_percent": 12
+        }
+      }
+    }
+  ]
+}
