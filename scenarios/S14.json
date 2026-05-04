@@ -1,0 +1,36 @@
+{
+  "schema_version": "2.0",
+  "metadata": {
+    "scenario_id": "S14",
+    "scenario_name": "Data Center Server Room \u2014 Clean Baseline",
+    "device_serial": "DC4R7X",
+    "latitude": 47.6149,
+    "longitude": -122.3404,
+    "site_name": "2101 4th Ave, Seattle, WA 98121",
+    "environment_type": "Indoor (Office)",
+    "scenario_note": "High-density co-location data center, precision air cooling at 68\u00b0F. Trace ozone from corona discharge on UPS units. Near-clean reference for AirTwin baseline calibration."
+  },
+  "events": [
+    {
+      "event_id": "evt_001",
+      "label": "UPS corona ozone + trace NOx, continuous",
+      "start_offset_minutes": 0,
+      "gases": {
+        "Ozone": {
+          "ramp_up_minutes": 30,
+          "peak_ppm": 0.12,
+          "peak_hold_minutes": 480,
+          "ramp_down_minutes": 30,
+          "noise_percent": 15
+        },
+        "Nitrogen Dioxide": {
+          "ramp_up_minutes": 45,
+          "peak_ppm": 0.08,
+          "peak_hold_minutes": 480,
+          "ramp_down_minutes": 30,
+          "noise_percent": 20
+        }
+      }
+    }
+  ]
+}
