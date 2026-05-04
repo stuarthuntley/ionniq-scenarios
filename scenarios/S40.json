@@ -1,0 +1,43 @@
+{
+  "schema_version": "2.0",
+  "metadata": {
+    "scenario_id": "S40",
+    "scenario_name": "Fertilizer Plant \u2014 Ammonia Storage Vent",
+    "device_serial": "FRT6Q2",
+    "latitude": 39.131,
+    "longitude": -94.578,
+    "site_name": "1301 Burlington St, Kansas City, MO 64116",
+    "environment_type": "Outdoor (Ambient)",
+    "scenario_note": "Nitrogen fertilizer production facility. Pressure relief valve actuation on ammonia storage sphere during transfer operation. Community fence-line EHS monitoring point."
+  },
+  "events": [
+    {
+      "event_id": "evt_001",
+      "label": "PRV actuation on ammonia sphere \u2014 downwind plume",
+      "start_offset_minutes": 120,
+      "gases": {
+        "Ammonia": {
+          "ramp_up_minutes": 8,
+          "peak_ppm": 85.0,
+          "peak_hold_minutes": 25,
+          "ramp_down_minutes": 60,
+          "noise_percent": 15
+        },
+        "Nitrous Oxide": {
+          "ramp_up_minutes": 10,
+          "peak_ppm": 0.95,
+          "peak_hold_minutes": 30,
+          "ramp_down_minutes": 60,
+          "noise_percent": 20
+        },
+        "Nitrogen Dioxide": {
+          "ramp_up_minutes": 10,
+          "peak_ppm": 0.65,
+          "peak_hold_minutes": 30,
+          "ramp_down_minutes": 60,
+          "noise_percent": 20
+        }
+      }
+    }
+  ]
+}
