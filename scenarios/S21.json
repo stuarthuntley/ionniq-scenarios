@@ -1,0 +1,43 @@
+{
+  "schema_version": "2.0",
+  "metadata": {
+    "scenario_id": "S21",
+    "scenario_name": "HVAC Ozone and NOx Intrusion Event",
+    "device_serial": "HVX2Q8",
+    "latitude": 33.4483,
+    "longitude": -112.074,
+    "site_name": "2 N Central Ave, Phoenix, AZ 85004",
+    "environment_type": "Indoor (Office)",
+    "scenario_note": "Ground-floor office near high-volume traffic intersection. Ozone and NOx spike during afternoon inversion layer. HVAC fresh air intake draws outdoor air directly with no filtration."
+  },
+  "events": [
+    {
+      "event_id": "evt_001",
+      "label": "Afternoon ozone and NOx intrusion via HVAC fresh air intake",
+      "start_offset_minutes": 240,
+      "gases": {
+        "Ozone": {
+          "ramp_up_minutes": 45,
+          "peak_ppm": 0.95,
+          "peak_hold_minutes": 120,
+          "ramp_down_minutes": 90,
+          "noise_percent": 20
+        },
+        "Nitrogen Dioxide": {
+          "ramp_up_minutes": 45,
+          "peak_ppm": 1.8,
+          "peak_hold_minutes": 120,
+          "ramp_down_minutes": 90,
+          "noise_percent": 18
+        },
+        "Nitric Oxide": {
+          "ramp_up_minutes": 30,
+          "peak_ppm": 4.5,
+          "peak_hold_minutes": 120,
+          "ramp_down_minutes": 90,
+          "noise_percent": 18
+        }
+      }
+    }
+  ]
+}
