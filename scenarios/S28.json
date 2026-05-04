@@ -1,0 +1,43 @@
+{
+  "schema_version": "2.0",
+  "metadata": {
+    "scenario_id": "S28",
+    "scenario_name": "Chemical Batch Mixing Incident",
+    "device_serial": "CBM2N6",
+    "latitude": 39.158,
+    "longitude": -84.638,
+    "site_name": "4747 Harrison Ave, Cincinnati, OH 45248",
+    "environment_type": "Industrial Floor",
+    "scenario_note": "Specialty chemical blending plant. Improper reagent addition sequence during batch prep generates chloramine vapor and HCl off-gas. Emergency ventilation activated."
+  },
+  "events": [
+    {
+      "event_id": "evt_001",
+      "label": "Reagent sequence error \u2014 chlorine and HCl release",
+      "start_offset_minutes": 20,
+      "gases": {
+        "Chlorine": {
+          "ramp_up_minutes": 4,
+          "peak_ppm": 2.2,
+          "peak_hold_minutes": 20,
+          "ramp_down_minutes": 50,
+          "noise_percent": 20
+        },
+        "Ammonia": {
+          "ramp_up_minutes": 4,
+          "peak_ppm": 18.0,
+          "peak_hold_minutes": 15,
+          "ramp_down_minutes": 45,
+          "noise_percent": 15
+        },
+        "Hydrochloric Acid": {
+          "ramp_up_minutes": 5,
+          "peak_ppm": 3.1,
+          "peak_hold_minutes": 18,
+          "ramp_down_minutes": 50,
+          "noise_percent": 20
+        }
+      }
+    }
+  ]
+}
