@@ -1,0 +1,43 @@
+{
+  "schema_version": "2.0",
+  "metadata": {
+    "scenario_id": "S36",
+    "scenario_name": "Wastewater Treatment \u2014 Digester Biogas Venting",
+    "device_serial": "WWT2B4",
+    "latitude": 33.429,
+    "longitude": -112.128,
+    "site_name": "2250 S 35th Ave, Phoenix, AZ 85009",
+    "environment_type": "Outdoor (Ambient)",
+    "scenario_note": "Municipal wastewater plant perimeter. Anaerobic digester pressure relief during hot weather. Combined H2S, ammonia, and methane signature from primary clarifier surface."
+  },
+  "events": [
+    {
+      "event_id": "evt_001",
+      "label": "Digester pressure relief \u2014 biogas venting event",
+      "start_offset_minutes": 30,
+      "gases": {
+        "Hydrogen Sulfide": {
+          "ramp_up_minutes": 15,
+          "peak_ppm": 6.2,
+          "peak_hold_minutes": 45,
+          "ramp_down_minutes": 60,
+          "noise_percent": 18
+        },
+        "Ammonia": {
+          "ramp_up_minutes": 15,
+          "peak_ppm": 22.0,
+          "peak_hold_minutes": 45,
+          "ramp_down_minutes": 60,
+          "noise_percent": 15
+        },
+        "Methane": {
+          "ramp_up_minutes": 20,
+          "peak_ppm": 380.0,
+          "peak_hold_minutes": 45,
+          "ramp_down_minutes": 60,
+          "noise_percent": 10
+        }
+      }
+    }
+  ]
+}
