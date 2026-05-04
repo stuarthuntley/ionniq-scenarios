@@ -1,0 +1,57 @@
+{
+  "schema_version": "2.0",
+  "metadata": {
+    "scenario_id": "S43",
+    "scenario_name": "Post-Wildfire Ash Resuspension Event",
+    "device_serial": "ASH4Z6",
+    "latitude": 38.496,
+    "longitude": -121.427,
+    "site_name": "Power Inn Rd & Elder Creek Rd, Sacramento, CA 95828",
+    "environment_type": "Outdoor (Ambient)",
+    "scenario_note": "Residential neighborhood, 2 weeks after containment of nearby grassland fire. Wind and vehicle traffic resuspend ash deposit, releasing semi-volatile compounds."
+  },
+  "events": [
+    {
+      "event_id": "evt_001",
+      "label": "Wind-driven ash resuspension \u2014 semi-volatile release",
+      "start_offset_minutes": 90,
+      "gases": {
+        "Carbon Monoxide": {
+          "ramp_up_minutes": 30,
+          "peak_ppm": 3.8,
+          "peak_hold_minutes": 120,
+          "ramp_down_minutes": 90,
+          "noise_percent": 18
+        },
+        "Acrolein": {
+          "ramp_up_minutes": 30,
+          "peak_ppm": 0.18,
+          "peak_hold_minutes": 120,
+          "ramp_down_minutes": 90,
+          "noise_percent": 25
+        },
+        "Formaldehyde": {
+          "ramp_up_minutes": 30,
+          "peak_ppm": 0.28,
+          "peak_hold_minutes": 120,
+          "ramp_down_minutes": 90,
+          "noise_percent": 20
+        },
+        "Benzene": {
+          "ramp_up_minutes": 30,
+          "peak_ppm": 0.85,
+          "peak_hold_minutes": 120,
+          "ramp_down_minutes": 90,
+          "noise_percent": 18
+        },
+        "Acetaldehyde": {
+          "ramp_up_minutes": 30,
+          "peak_ppm": 0.55,
+          "peak_hold_minutes": 120,
+          "ramp_down_minutes": 90,
+          "noise_percent": 20
+        }
+      }
+    }
+  ]
+}
