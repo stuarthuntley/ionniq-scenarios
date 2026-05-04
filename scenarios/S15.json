@@ -1,0 +1,43 @@
+{
+  "schema_version": "2.0",
+  "metadata": {
+    "scenario_id": "S15",
+    "scenario_name": "Office Kitchen Combustion Event",
+    "device_serial": "WTC92K",
+    "latitude": 40.7127,
+    "longitude": -74.0134,
+    "site_name": "1 World Trade Center, New York, NY 10007",
+    "environment_type": "Indoor (Office)",
+    "scenario_note": "Corporate high-rise, 42nd floor break room. Unattended microwave overheating event during lunch hour. Smoke triggers building HVAC recirculation before suppression."
+  },
+  "events": [
+    {
+      "event_id": "evt_001",
+      "label": "Overheated food \u2014 CO and aldehydes spike",
+      "start_offset_minutes": 180,
+      "gases": {
+        "Carbon Monoxide": {
+          "ramp_up_minutes": 8,
+          "peak_ppm": 38.0,
+          "peak_hold_minutes": 25,
+          "ramp_down_minutes": 45,
+          "noise_percent": 12
+        },
+        "Formaldehyde": {
+          "ramp_up_minutes": 5,
+          "peak_ppm": 0.85,
+          "peak_hold_minutes": 20,
+          "ramp_down_minutes": 40,
+          "noise_percent": 15
+        },
+        "Acetaldehyde": {
+          "ramp_up_minutes": 5,
+          "peak_ppm": 1.2,
+          "peak_hold_minutes": 20,
+          "ramp_down_minutes": 40,
+          "noise_percent": 15
+        }
+      }
+    }
+  ]
+}
