@@ -1,0 +1,71 @@
+{
+  "schema_version": "2.0",
+  "metadata": {
+    "scenario_id": "S38",
+    "scenario_name": "Oil Refinery Flare Stack \u2014 Startup Vent",
+    "device_serial": "FLR1K8",
+    "latitude": 29.743,
+    "longitude": -95.245,
+    "site_name": "3801 Saginaw St, Houston, TX 77020",
+    "environment_type": "Outdoor (Ambient)",
+    "scenario_note": "Refinery fence line. Steam-assisted flaring during turnaround unit restart. Incomplete combustion during purge phase produces H2S and VOC breakthrough downwind."
+  },
+  "events": [
+    {
+      "event_id": "evt_001",
+      "label": "Flare purge phase \u2014 H2S and aromatic breakthrough",
+      "start_offset_minutes": 30,
+      "gases": {
+        "Sulfur Dioxide": {
+          "ramp_up_minutes": 20,
+          "peak_ppm": 8.5,
+          "peak_hold_minutes": 60,
+          "ramp_down_minutes": 45,
+          "noise_percent": 15
+        },
+        "Hydrogen Sulfide": {
+          "ramp_up_minutes": 15,
+          "peak_ppm": 3.2,
+          "peak_hold_minutes": 45,
+          "ramp_down_minutes": 40,
+          "noise_percent": 18
+        },
+        "Benzene": {
+          "ramp_up_minutes": 20,
+          "peak_ppm": 2.8,
+          "peak_hold_minutes": 60,
+          "ramp_down_minutes": 45,
+          "noise_percent": 15
+        },
+        "Toluene": {
+          "ramp_up_minutes": 20,
+          "peak_ppm": 15.0,
+          "peak_hold_minutes": 60,
+          "ramp_down_minutes": 45,
+          "noise_percent": 12
+        }
+      }
+    },
+    {
+      "event_id": "evt_002",
+      "label": "Steady flare operation \u2014 reduced emissions",
+      "start_offset_minutes": 180,
+      "gases": {
+        "Sulfur Dioxide": {
+          "ramp_up_minutes": 20,
+          "peak_ppm": 3.2,
+          "peak_hold_minutes": 240,
+          "ramp_down_minutes": 45,
+          "noise_percent": 15
+        },
+        "Hydrogen Sulfide": {
+          "ramp_up_minutes": 20,
+          "peak_ppm": 0.9,
+          "peak_hold_minutes": 240,
+          "ramp_down_minutes": 45,
+          "noise_percent": 18
+        }
+      }
+    }
+  ]
+}
