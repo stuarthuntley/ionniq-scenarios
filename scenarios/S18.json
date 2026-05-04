@@ -1,0 +1,43 @@
+{
+  "schema_version": "2.0",
+  "metadata": {
+    "scenario_id": "S18",
+    "scenario_name": "Cleaning Chemical Mixing Incident",
+    "device_serial": "CCM5P1",
+    "latitude": 33.7584,
+    "longitude": -84.3875,
+    "site_name": "191 Peachtree Tower, Atlanta, GA 30303",
+    "environment_type": "Indoor (Office)",
+    "scenario_note": "Janitorial closet, 8th floor. Cleaning staff accidentally mixed bleach-based and ammonia-based floor products. Chloramine and HCl vapor generated in enclosed space."
+  },
+  "events": [
+    {
+      "event_id": "evt_001",
+      "label": "Bleach + ammonia mixing \u2014 chloramine and HCl release",
+      "start_offset_minutes": 15,
+      "gases": {
+        "Chlorine": {
+          "ramp_up_minutes": 5,
+          "peak_ppm": 1.8,
+          "peak_hold_minutes": 30,
+          "ramp_down_minutes": 60,
+          "noise_percent": 18
+        },
+        "Ammonia": {
+          "ramp_up_minutes": 5,
+          "peak_ppm": 12.0,
+          "peak_hold_minutes": 25,
+          "ramp_down_minutes": 55,
+          "noise_percent": 15
+        },
+        "Hydrochloric Acid": {
+          "ramp_up_minutes": 8,
+          "peak_ppm": 2.4,
+          "peak_hold_minutes": 25,
+          "ramp_down_minutes": 55,
+          "noise_percent": 18
+        }
+      }
+    }
+  ]
+}
