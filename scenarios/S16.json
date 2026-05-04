@@ -1,0 +1,57 @@
+{
+  "schema_version": "2.0",
+  "metadata": {
+    "scenario_id": "S16",
+    "scenario_name": "Nail Salon VOC Saturation",
+    "device_serial": "NSL3M2",
+    "latitude": 34.0905,
+    "longitude": -118.38,
+    "site_name": "8600 Sunset Blvd, West Hollywood, CA 90069",
+    "environment_type": "Indoor (Office)",
+    "scenario_note": "Boutique nail salon in strip mall. Three nail stations operating simultaneously during peak afternoon hours. Inadequate exhaust ventilation, door kept closed."
+  },
+  "events": [
+    {
+      "event_id": "evt_001",
+      "label": "Peak salon operations \u2014 acrylic and polish solvents",
+      "start_offset_minutes": 30,
+      "gases": {
+        "Acetone": {
+          "ramp_up_minutes": 20,
+          "peak_ppm": 320.0,
+          "peak_hold_minutes": 240,
+          "ramp_down_minutes": 60,
+          "noise_percent": 10
+        },
+        "Ethyl Acetate": {
+          "ramp_up_minutes": 20,
+          "peak_ppm": 85.0,
+          "peak_hold_minutes": 240,
+          "ramp_down_minutes": 60,
+          "noise_percent": 12
+        },
+        "Isopropanol": {
+          "ramp_up_minutes": 15,
+          "peak_ppm": 95.0,
+          "peak_hold_minutes": 240,
+          "ramp_down_minutes": 60,
+          "noise_percent": 10
+        },
+        "Toluene": {
+          "ramp_up_minutes": 25,
+          "peak_ppm": 22.0,
+          "peak_hold_minutes": 240,
+          "ramp_down_minutes": 60,
+          "noise_percent": 12
+        },
+        "Xylene": {
+          "ramp_up_minutes": 25,
+          "peak_ppm": 14.0,
+          "peak_hold_minutes": 240,
+          "ramp_down_minutes": 60,
+          "noise_percent": 12
+        }
+      }
+    }
+  ]
+}
