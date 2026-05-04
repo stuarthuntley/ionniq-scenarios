@@ -1,0 +1,36 @@
+{
+  "schema_version": "2.0",
+  "metadata": {
+    "scenario_id": "S17",
+    "scenario_name": "Natural Gas Line Leak \u2014 High-Rise",
+    "device_serial": "LGL7N9",
+    "latitude": 41.8882,
+    "longitude": -87.6337,
+    "site_name": "300 N LaSalle Dr, Chicago, IL 60654",
+    "environment_type": "Indoor (Office)",
+    "scenario_note": "Office tower, basement utility room. Slow seep from aging gas supply manifold near HVAC air handler. Methane and ethane signature consistent with pipeline-grade natural gas."
+  },
+  "events": [
+    {
+      "event_id": "evt_001",
+      "label": "Slow manifold seep \u2014 natural gas accumulation",
+      "start_offset_minutes": 0,
+      "gases": {
+        "Methane": {
+          "ramp_up_minutes": 60,
+          "peak_ppm": 820.0,
+          "peak_hold_minutes": 360,
+          "ramp_down_minutes": 120,
+          "noise_percent": 8
+        },
+        "Ethane": {
+          "ramp_up_minutes": 60,
+          "peak_ppm": 180.0,
+          "peak_hold_minutes": 360,
+          "ramp_down_minutes": 120,
+          "noise_percent": 10
+        }
+      }
+    }
+  ]
+}
