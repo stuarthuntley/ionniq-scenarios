@@ -1,0 +1,57 @@
+{
+  "schema_version": "2.0",
+  "metadata": {
+    "scenario_id": "S20",
+    "scenario_name": "Office Renovation \u2014 Adhesive and Sealant Application",
+    "device_serial": "RNV8W3",
+    "latitude": 39.9531,
+    "longitude": -75.171,
+    "site_name": "1700 Market St, Philadelphia, PA 19103",
+    "environment_type": "Indoor (Office)",
+    "scenario_note": "Weekend flooring and tile renovation on floors 4\u20136. VOC-heavy contact adhesives applied in partially ventilated space. Partial re-entry Monday morning before off-gassing completes."
+  },
+  "events": [
+    {
+      "event_id": "evt_001",
+      "label": "Contact adhesive application \u2014 peak VOC emission",
+      "start_offset_minutes": 0,
+      "gases": {
+        "Toluene": {
+          "ramp_up_minutes": 30,
+          "peak_ppm": 95.0,
+          "peak_hold_minutes": 180,
+          "ramp_down_minutes": 240,
+          "noise_percent": 10
+        },
+        "Methyl Ethyl Ketone": {
+          "ramp_up_minutes": 30,
+          "peak_ppm": 120.0,
+          "peak_hold_minutes": 180,
+          "ramp_down_minutes": 240,
+          "noise_percent": 10
+        },
+        "Benzene": {
+          "ramp_up_minutes": 30,
+          "peak_ppm": 1.8,
+          "peak_hold_minutes": 180,
+          "ramp_down_minutes": 240,
+          "noise_percent": 15
+        },
+        "Xylene": {
+          "ramp_up_minutes": 30,
+          "peak_ppm": 55.0,
+          "peak_hold_minutes": 180,
+          "ramp_down_minutes": 240,
+          "noise_percent": 10
+        },
+        "Ethyl Acetate": {
+          "ramp_up_minutes": 25,
+          "peak_ppm": 40.0,
+          "peak_hold_minutes": 180,
+          "ramp_down_minutes": 240,
+          "noise_percent": 12
+        }
+      }
+    }
+  ]
+}
