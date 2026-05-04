@@ -1,0 +1,36 @@
+{
+  "schema_version": "2.0",
+  "metadata": {
+    "scenario_id": "S24",
+    "scenario_name": "Lead-Acid Battery Bank Overcharge",
+    "device_serial": "LAB3R7",
+    "latitude": 35.2225,
+    "longitude": -80.8462,
+    "site_name": "650 S Tryon St, Charlotte, NC 28202",
+    "environment_type": "Industrial Floor",
+    "scenario_note": "Utility substation battery backup room. Overcharge condition triggers electrolyte decomposition and off-gassing from 48 battery strings."
+  },
+  "events": [
+    {
+      "event_id": "evt_001",
+      "label": "Overcharge \u2014 H2S and SO2 off-gassing from electrolyte",
+      "start_offset_minutes": 60,
+      "gases": {
+        "Hydrogen Sulfide": {
+          "ramp_up_minutes": 20,
+          "peak_ppm": 8.5,
+          "peak_hold_minutes": 120,
+          "ramp_down_minutes": 60,
+          "noise_percent": 15
+        },
+        "Sulfur Dioxide": {
+          "ramp_up_minutes": 20,
+          "peak_ppm": 3.2,
+          "peak_hold_minutes": 120,
+          "ramp_down_minutes": 60,
+          "noise_percent": 18
+        }
+      }
+    }
+  ]
+}
