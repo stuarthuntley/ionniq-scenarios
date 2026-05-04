@@ -1,0 +1,36 @@
+{
+  "schema_version": "2.0",
+  "metadata": {
+    "scenario_id": "S27",
+    "scenario_name": "Refrigerant Leak \u2014 Chiller Room",
+    "device_serial": "CHR8L1",
+    "latitude": 44.9845,
+    "longitude": -93.2694,
+    "site_name": "800 Washington Ave N, Minneapolis, MN 55401",
+    "environment_type": "Industrial Floor",
+    "scenario_note": "District cooling plant, centrifugal chiller room. Brazed joint failure on R-22 unit. Trace chlorination products detected as refrigerant contacts hot compressor surfaces."
+  },
+  "events": [
+    {
+      "event_id": "evt_001",
+      "label": "R-22 joint failure \u2014 refrigerant decomposition products",
+      "start_offset_minutes": 45,
+      "gases": {
+        "Chlorine": {
+          "ramp_up_minutes": 15,
+          "peak_ppm": 0.85,
+          "peak_hold_minutes": 90,
+          "ramp_down_minutes": 60,
+          "noise_percent": 20
+        },
+        "Hydrochloric Acid": {
+          "ramp_up_minutes": 15,
+          "peak_ppm": 1.6,
+          "peak_hold_minutes": 90,
+          "ramp_down_minutes": 60,
+          "noise_percent": 18
+        }
+      }
+    }
+  ]
+}
