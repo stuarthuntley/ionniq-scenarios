@@ -1,0 +1,50 @@
+{
+  "schema_version": "2.0",
+  "metadata": {
+    "scenario_id": "S26",
+    "scenario_name": "Chlorinated Solvent Degreasing Tank",
+    "device_serial": "DGR4M5",
+    "latitude": 42.4175,
+    "longitude": -83.0135,
+    "site_name": "2400 E McNichols Rd, Detroit, MI 48212",
+    "environment_type": "Industrial Floor",
+    "scenario_note": "Automotive parts manufacturer, open-top vapor degreaser. Cover left off during shift change. TCE-saturated vapor zone at floor level."
+  },
+  "events": [
+    {
+      "event_id": "evt_001",
+      "label": "Uncovered degreaser \u2014 TCE and co-solvent vapor release",
+      "start_offset_minutes": 0,
+      "gases": {
+        "Trichloroethylene": {
+          "ramp_up_minutes": 30,
+          "peak_ppm": 35.0,
+          "peak_hold_minutes": 300,
+          "ramp_down_minutes": 90,
+          "noise_percent": 10
+        },
+        "Methyl Ethyl Ketone": {
+          "ramp_up_minutes": 30,
+          "peak_ppm": 65.0,
+          "peak_hold_minutes": 300,
+          "ramp_down_minutes": 90,
+          "noise_percent": 10
+        },
+        "Hexane": {
+          "ramp_up_minutes": 30,
+          "peak_ppm": 42.0,
+          "peak_hold_minutes": 300,
+          "ramp_down_minutes": 90,
+          "noise_percent": 12
+        },
+        "Toluene": {
+          "ramp_up_minutes": 30,
+          "peak_ppm": 18.0,
+          "peak_hold_minutes": 300,
+          "ramp_down_minutes": 90,
+          "noise_percent": 12
+        }
+      }
+    }
+  ]
+}
