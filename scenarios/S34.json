@@ -1,0 +1,36 @@
+{
+  "schema_version": "2.0",
+  "metadata": {
+    "scenario_id": "S34",
+    "scenario_name": "Agricultural Ammonia Fertilizer Application",
+    "device_serial": "AGR9A3",
+    "latitude": 36.6913,
+    "longitude": -119.938,
+    "site_name": "Manning Ave & Shields Ave, Fresno, CA 93706",
+    "environment_type": "Outdoor (Ambient)",
+    "scenario_note": "San Joaquin Valley row crop farming. Anhydrous ammonia knife-injector application passes within 200m of IONNIQ monitoring station at county road boundary."
+  },
+  "events": [
+    {
+      "event_id": "evt_001",
+      "label": "Anhydrous ammonia field application \u2014 downwind plume",
+      "start_offset_minutes": 45,
+      "gases": {
+        "Ammonia": {
+          "ramp_up_minutes": 10,
+          "peak_ppm": 65.0,
+          "peak_hold_minutes": 60,
+          "ramp_down_minutes": 45,
+          "noise_percent": 18
+        },
+        "Non-methane Organic Compounds": {
+          "ramp_up_minutes": 15,
+          "peak_ppm": 0.35,
+          "peak_hold_minutes": 60,
+          "ramp_down_minutes": 45,
+          "noise_percent": 20
+        }
+      }
+    }
+  ]
+}
