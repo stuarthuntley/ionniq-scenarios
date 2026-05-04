@@ -1,0 +1,57 @@
+{
+  "schema_version": "2.0",
+  "metadata": {
+    "scenario_id": "S35",
+    "scenario_name": "Petrochemical Plant Fence-Line Monitoring",
+    "device_serial": "PCH7R5",
+    "latitude": 30.528,
+    "longitude": -91.184,
+    "site_name": "Hwy 30 & Old River Rd, Baton Rouge, LA 70805",
+    "environment_type": "Outdoor (Ambient)",
+    "scenario_note": "Refinery community boundary. Routine process vent emissions during crude unit turndown. Upwind H2S from sulfur recovery unit. Community EHS permit monitoring."
+  },
+  "events": [
+    {
+      "event_id": "evt_001",
+      "label": "Crude unit turndown \u2014 process vent and fugitive emissions",
+      "start_offset_minutes": 90,
+      "gases": {
+        "Hydrogen Sulfide": {
+          "ramp_up_minutes": 25,
+          "peak_ppm": 4.8,
+          "peak_hold_minutes": 180,
+          "ramp_down_minutes": 60,
+          "noise_percent": 18
+        },
+        "Sulfur Dioxide": {
+          "ramp_up_minutes": 25,
+          "peak_ppm": 2.1,
+          "peak_hold_minutes": 180,
+          "ramp_down_minutes": 60,
+          "noise_percent": 18
+        },
+        "Benzene": {
+          "ramp_up_minutes": 30,
+          "peak_ppm": 1.2,
+          "peak_hold_minutes": 180,
+          "ramp_down_minutes": 60,
+          "noise_percent": 15
+        },
+        "Toluene": {
+          "ramp_up_minutes": 30,
+          "peak_ppm": 8.5,
+          "peak_hold_minutes": 180,
+          "ramp_down_minutes": 60,
+          "noise_percent": 12
+        },
+        "Xylene": {
+          "ramp_up_minutes": 30,
+          "peak_ppm": 5.2,
+          "peak_hold_minutes": 180,
+          "ramp_down_minutes": 60,
+          "noise_percent": 12
+        }
+      }
+    }
+  ]
+}
