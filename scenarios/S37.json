@@ -1,0 +1,50 @@
+{
+  "schema_version": "2.0",
+  "metadata": {
+    "scenario_id": "S37",
+    "scenario_name": "Urban Road Repaving Operation",
+    "device_serial": "RPV5U1",
+    "latitude": 41.94,
+    "longitude": -87.638,
+    "site_name": "Lake Shore Dr at Belmont Ave, Chicago, IL 60657",
+    "environment_type": "Outdoor (Ambient)",
+    "scenario_note": "Lakefront road rehabilitation. Hot-mix asphalt paver 25m upwind of IONNIQ. Fume generation peaks during initial laydown and compaction pass."
+  },
+  "events": [
+    {
+      "event_id": "evt_001",
+      "label": "Hot-mix paving \u2014 asphalt fume and VOC emission",
+      "start_offset_minutes": 60,
+      "gases": {
+        "Non-methane Organic Compounds": {
+          "ramp_up_minutes": 20,
+          "peak_ppm": 0.72,
+          "peak_hold_minutes": 180,
+          "ramp_down_minutes": 45,
+          "noise_percent": 15
+        },
+        "Benzene": {
+          "ramp_up_minutes": 20,
+          "peak_ppm": 1.4,
+          "peak_hold_minutes": 180,
+          "ramp_down_minutes": 45,
+          "noise_percent": 15
+        },
+        "Toluene": {
+          "ramp_up_minutes": 20,
+          "peak_ppm": 12.0,
+          "peak_hold_minutes": 180,
+          "ramp_down_minutes": 45,
+          "noise_percent": 12
+        },
+        "Xylene": {
+          "ramp_up_minutes": 20,
+          "peak_ppm": 8.5,
+          "peak_hold_minutes": 180,
+          "ramp_down_minutes": 45,
+          "noise_percent": 12
+        }
+      }
+    }
+  ]
+}
