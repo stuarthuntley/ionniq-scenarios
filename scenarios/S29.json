@@ -1,0 +1,57 @@
+{
+  "schema_version": "2.0",
+  "metadata": {
+    "scenario_id": "S29",
+    "scenario_name": "Commercial Print Shop \u2014 Ink and Solvent Fumes",
+    "device_serial": "PRT7H4",
+    "latitude": 39.89,
+    "longitude": -86.254,
+    "site_name": "5625 W 73rd St, Indianapolis, IN 46278",
+    "environment_type": "Industrial Floor",
+    "scenario_note": "High-volume commercial printing facility. UV-cure press and solvent-based ink wash station operating at full capacity during overnight press run."
+  },
+  "events": [
+    {
+      "event_id": "evt_001",
+      "label": "Press run and ink wash \u2014 peak solvent emission",
+      "start_offset_minutes": 0,
+      "gases": {
+        "Toluene": {
+          "ramp_up_minutes": 20,
+          "peak_ppm": 55.0,
+          "peak_hold_minutes": 480,
+          "ramp_down_minutes": 60,
+          "noise_percent": 10
+        },
+        "Xylene": {
+          "ramp_up_minutes": 20,
+          "peak_ppm": 38.0,
+          "peak_hold_minutes": 480,
+          "ramp_down_minutes": 60,
+          "noise_percent": 10
+        },
+        "Ethyl Acetate": {
+          "ramp_up_minutes": 20,
+          "peak_ppm": 48.0,
+          "peak_hold_minutes": 480,
+          "ramp_down_minutes": 60,
+          "noise_percent": 10
+        },
+        "Methyl Ethyl Ketone": {
+          "ramp_up_minutes": 20,
+          "peak_ppm": 72.0,
+          "peak_hold_minutes": 480,
+          "ramp_down_minutes": 60,
+          "noise_percent": 10
+        },
+        "Isopropanol": {
+          "ramp_up_minutes": 20,
+          "peak_ppm": 65.0,
+          "peak_hold_minutes": 480,
+          "ramp_down_minutes": 60,
+          "noise_percent": 10
+        }
+      }
+    }
+  ]
+}
