@@ -1,0 +1,78 @@
+{
+  "schema_version": "2.0",
+  "metadata": {
+    "scenario_id": "S30",
+    "scenario_name": "Fuel Oil Boiler Room \u2014 Startup Combustion",
+    "device_serial": "BOL5C9",
+    "latitude": 42.3512,
+    "longitude": -71.0453,
+    "site_name": "155 Seaport Blvd, Boston, MA 02210",
+    "environment_type": "Industrial Floor",
+    "scenario_note": "Multi-tenant waterfront building, basement boiler room. Seasonal startup of No. 2 fuel oil boiler. Rich mixture during ignition cycle before burner tune-up is complete."
+  },
+  "events": [
+    {
+      "event_id": "evt_001",
+      "label": "Boiler startup \u2014 incomplete combustion products",
+      "start_offset_minutes": 0,
+      "gases": {
+        "Carbon Monoxide": {
+          "ramp_up_minutes": 15,
+          "peak_ppm": 95.0,
+          "peak_hold_minutes": 45,
+          "ramp_down_minutes": 60,
+          "noise_percent": 12
+        },
+        "Sulfur Dioxide": {
+          "ramp_up_minutes": 15,
+          "peak_ppm": 6.5,
+          "peak_hold_minutes": 45,
+          "ramp_down_minutes": 60,
+          "noise_percent": 15
+        },
+        "Nitric Oxide": {
+          "ramp_up_minutes": 20,
+          "peak_ppm": 22.0,
+          "peak_hold_minutes": 45,
+          "ramp_down_minutes": 60,
+          "noise_percent": 12
+        },
+        "Formaldehyde": {
+          "ramp_up_minutes": 15,
+          "peak_ppm": 0.65,
+          "peak_hold_minutes": 45,
+          "ramp_down_minutes": 60,
+          "noise_percent": 18
+        }
+      }
+    },
+    {
+      "event_id": "evt_002",
+      "label": "Steady-state operation \u2014 reduced but persistent emissions",
+      "start_offset_minutes": 120,
+      "gases": {
+        "Carbon Monoxide": {
+          "ramp_up_minutes": 20,
+          "peak_ppm": 18.0,
+          "peak_hold_minutes": 360,
+          "ramp_down_minutes": 45,
+          "noise_percent": 10
+        },
+        "Sulfur Dioxide": {
+          "ramp_up_minutes": 20,
+          "peak_ppm": 2.2,
+          "peak_hold_minutes": 360,
+          "ramp_down_minutes": 45,
+          "noise_percent": 12
+        },
+        "Nitric Oxide": {
+          "ramp_up_minutes": 20,
+          "peak_ppm": 8.5,
+          "peak_hold_minutes": 360,
+          "ramp_down_minutes": 45,
+          "noise_percent": 12
+        }
+      }
+    }
+  ]
+}
