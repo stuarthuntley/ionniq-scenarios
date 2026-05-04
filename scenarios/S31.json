@@ -1,0 +1,57 @@
+{
+  "schema_version": "2.0",
+  "metadata": {
+    "scenario_id": "S31",
+    "scenario_name": "Structural Fire \u2014 Interior Warehouse",
+    "device_serial": "FIR3X7",
+    "latitude": 42.3362,
+    "longitude": -83.046,
+    "site_name": "8200 Zionsville Rd, Detroit, MI 48228",
+    "environment_type": "Industrial Floor",
+    "scenario_note": "Cold storage and logistics facility. Electrical fault in refrigeration equipment room ignites insulation foam and mixed dry goods. IONNIQ deployed at fire command perimeter staging."
+  },
+  "events": [
+    {
+      "event_id": "evt_001",
+      "label": "Fire development \u2014 toxic combustion gas plume",
+      "start_offset_minutes": 10,
+      "gases": {
+        "Carbon Monoxide": {
+          "ramp_up_minutes": 5,
+          "peak_ppm": 185.0,
+          "peak_hold_minutes": 45,
+          "ramp_down_minutes": 90,
+          "noise_percent": 15
+        },
+        "Hydrogen Cyanide": {
+          "ramp_up_minutes": 8,
+          "peak_ppm": 3.8,
+          "peak_hold_minutes": 40,
+          "ramp_down_minutes": 80,
+          "noise_percent": 20
+        },
+        "Formaldehyde": {
+          "ramp_up_minutes": 5,
+          "peak_ppm": 1.8,
+          "peak_hold_minutes": 40,
+          "ramp_down_minutes": 80,
+          "noise_percent": 18
+        },
+        "Acrolein": {
+          "ramp_up_minutes": 5,
+          "peak_ppm": 0.7,
+          "peak_hold_minutes": 40,
+          "ramp_down_minutes": 80,
+          "noise_percent": 22
+        },
+        "Nitrogen Dioxide": {
+          "ramp_up_minutes": 8,
+          "peak_ppm": 3.2,
+          "peak_hold_minutes": 40,
+          "ramp_down_minutes": 80,
+          "noise_percent": 18
+        }
+      }
+    }
+  ]
+}
