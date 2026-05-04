@@ -1,0 +1,50 @@
+{
+  "schema_version": "2.0",
+  "metadata": {
+    "scenario_id": "S23",
+    "scenario_name": "Li-Ion Battery Pack Thermal Runaway",
+    "device_serial": "LIB9F3",
+    "latitude": 37.5226,
+    "longitude": -121.9837,
+    "site_name": "45500 Fremont Blvd, Fremont, CA 94538",
+    "environment_type": "Industrial Floor",
+    "scenario_note": "EV battery assembly facility. Single 100 kWh cell group enters thermal runaway during formation cycling. Venting through safety valve before suppression activation."
+  },
+  "events": [
+    {
+      "event_id": "evt_001",
+      "label": "Thermal runaway onset \u2014 electrolyte venting gases",
+      "start_offset_minutes": 120,
+      "gases": {
+        "Ethylene": {
+          "ramp_up_minutes": 3,
+          "peak_ppm": 285.0,
+          "peak_hold_minutes": 15,
+          "ramp_down_minutes": 40,
+          "noise_percent": 20
+        },
+        "Carbon Monoxide": {
+          "ramp_up_minutes": 3,
+          "peak_ppm": 180.0,
+          "peak_hold_minutes": 15,
+          "ramp_down_minutes": 40,
+          "noise_percent": 18
+        },
+        "Hydrogen Fluoride": {
+          "ramp_up_minutes": 5,
+          "peak_ppm": 1.4,
+          "peak_hold_minutes": 15,
+          "ramp_down_minutes": 45,
+          "noise_percent": 25
+        },
+        "Acrolein": {
+          "ramp_up_minutes": 3,
+          "peak_ppm": 0.55,
+          "peak_hold_minutes": 12,
+          "ramp_down_minutes": 35,
+          "noise_percent": 22
+        }
+      }
+    }
+  ]
+}
